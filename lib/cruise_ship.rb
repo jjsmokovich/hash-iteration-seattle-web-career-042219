@@ -7,5 +7,6 @@
 }
 
 def select_winner(passengers)
-  
+  passengers.each do |room, name| 
+    if passengers[room][name] 
 end
