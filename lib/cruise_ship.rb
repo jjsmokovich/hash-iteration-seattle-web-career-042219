@@ -8,5 +8,5 @@
 
 def select_winner(passengers)
   passengers.each do |room, name| 
-    if passengers[room][name] 
+    if passengers[suite_a:].start_with
 end
