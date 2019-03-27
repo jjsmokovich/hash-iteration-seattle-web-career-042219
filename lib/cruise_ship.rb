@@ -7,7 +7,7 @@
 }
 
 def select_winner(passengers)
-  passengers.each do |room, name| 
+  passengers.each do |room| 
     if passengers[suite_a:].start_with? 'A'
       puts "Congradulations, you are the winner"
   end
